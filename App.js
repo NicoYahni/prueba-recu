@@ -17,7 +17,7 @@ export default class App extends Component {
 
     return (
       <View style={{flex:1, alignItems:'center'}}>
-        <Text style={{fontSize:30}}>Contador: {this.state.contador}
+        <Text style={{fontSize:30}}>Pruebaa: {this.state.contador}
         </Text>
         <Button title="incrementar" onPress={() => this.setState({contador: this.state.contador + 1})}/>
         <Button title="decrementar" onPress={() => this.setState({contador: this.state.contador - 1})}/>
