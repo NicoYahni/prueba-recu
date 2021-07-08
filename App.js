@@ -21,7 +21,7 @@ export default class App extends Component {
         </Text>
         <Button title="incrementar" onPress={() => this.setState({contador: this.state.contador + 1})}/>
         <Button title="decrementar" onPress={() => this.setState({contador: this.state.contador - 1})}/>
-        
+        <Button title="reset" onPress={() => this.setState({contador: 0})}/>
 
       </View>
     )
